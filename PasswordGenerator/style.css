@@ -1,0 +1,67 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  background-color: rebeccapurple;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.pw-container {
+  width: 400px;
+  background-color: rgb(46, 12, 80);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+.pw-header {
+  padding: 1rem;
+}
+.pw {
+  background-color: rebeccapurple;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  font-size: 1.5rem;
+  text-overflow: ellipsis;
+}
+.pw button {
+  position: absolute;
+  color: rgb(29, 2, 56);
+  border: none;
+  top: 0;
+  right: 0;
+  padding: 0.25rem;
+  font-weight: bold;
+  font-family: inherit;
+  transform: translate(0, 5%);
+  background-color: white;
+  opacity: 0;
+  cursor: pointer;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+}
+.pw:hover button {
+  opacity: 1;
+}
+.pw-body {
+  padding: 0 1rem 1rem;
+}
+.form-control {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.75rem 0;
+  color: #eee;
+}
+.generate {
+  width: 100%;
+  display: "block";
+  border: none;
+  background-color: #ecb602;
+  color: rebeccapurple;
+  font-weight: "bold";
+  font-size: 2rem;
+  padding: 0.75rem;
+  margin-top: 1rem;
+}
