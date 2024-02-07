@@ -47,6 +47,6 @@ const startDrawing = (e) => {
 }
 
 canvas.addEventListener('mousemove', startDrawing)
-window.onload = () => { 
+window.onload = () => {
     window.requestAnimationFrame(draw);
 }
