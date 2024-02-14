@@ -1,73 +1,72 @@
-
 const products = [{
     id: 0,
-    title: 'Tshirt1',
+    title: 'Never Give up Tshirt',
     price: '$10',
     image: 'images/tshirt1.webp'
 },
 {
     id: 1,
-    title: 'Thsirt2',
+    title: 'Thsirts',
     price: '$15',
     image: 'images/tshirt2.jpg'
 },
 {
     id: 2,
-    title: 'Thsirt3',
+    title: 'Blue Thsirt',
     price: '$20',
     image: 'images/tshirt3.jpg'
 },
 {
     id: 3,
-    title: 'Skirt1',
+    title: 'Black Skirt',
     price: '$10',
     image: 'images/skirt1.webp'
 },
 {
     id: 4,
-    title: 'Skirt2',
+    title: 'Princess Skirt',
     price: '$12',
     image: 'images/skirt2.webp'
 },
 {
     id: 5,
-    title: 'Skirt3',
+    title: 'Long Skirt',
     price: '$18',
     image: 'images/skirt3.jpg'
 },
 {
     id: 6,
-    title: 'Pant1',
+    title: 'Brown Pant 1',
     price: '$15',
     image: 'images/pant1.jpg'
 },
 {
     id: 7,
-    title: 'Pant2',
+    title: 'Black Pant',
     price: '$22',
     image: 'images/pant2.webp'
 },
 {
     id: 8,
-    title: 'Pant3',
+    title: 'Brown Pant 2',
     price: '$30',
     image: 'images/pant3.jpg'
 },
 {
     id: 0,
-    title: 'Jewelly1',
+    title: 'Mix Jewelly Set',
     price: '$40',
     image: 'images/jewelly1.webp'
 },
 {
     id: 0,
-    title: 'Jewelly2',
+    title: 'Blue Jewelly Set',
     price: '$38',
     image: 'images/jewelly2.webp'
 },
 {
     id: 0,
-    title: 'Jewelly3',
+    title: 'Gold Color Jewelly Set',
     price: '$43',
     image: 'images/jewelly3.jpg'
 },
