@@ -1,0 +1,8 @@
+.custom_tooltip {
+  color: green;
+  font-size: 20px;
+}
+
+.customTooltip .introjs-tooltip-title {
+    color: red;
+}
